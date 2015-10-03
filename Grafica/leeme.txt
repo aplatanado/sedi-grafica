@@ -1,0 +1,38 @@
+TRAZADOR DE FUNCIONES EN PANTALLA GRAFICA
+-----------------------------------------
+
+* Para el ajuste fino del cursor se usan las teclas de izquierda a derecha.
+  Si se desea avance r pido se debe usar avanzar p gina y retroceder p gina.
+
+* Para conmutar entre controles de entrada de datos se usa el tabulador.
+  Para entrar los datos se utiliza ENTER.
+
+* Los operandos, funciones, constantes y variables admitidas por el programa
+  son las siguientes:
+
+         (        -->      Abrir par‚ntesis.
+         )        -->      Cerrar par‚ntesis.
+         ^        -->      x elevado y.
+         *        -->      Producto.
+         /        -->      Divisi¢n.
+         +        -->      Suma.
+         -        -->      Resta.
+         ABS      -->      Valor absoluto.
+         SQRT     -->      Raiz cuadrada.
+         EXP      -->      Exponencial.
+         LN       -->      Logaritmo neperiano.
+         LOG      -->      Logaritmo base 10.
+         SINH     -->      Seno hiperb¢lico.
+         COSH     -->      Coseno hiperb¢lico.
+         TANH     -->      Tangente hiperb¢lica.
+         SIN      -->      Seno.
+         COS      -->      Coseno.
+         TAN      -->      Tangente.
+         ASIN     -->      Arcoseno.
+         ACOS     -->      Arcocoseno.
+         ATAN     -->      Arcotangente.
+         FACT     -->      Factorial.
+         E        -->      N£mero e.
+         PI       -->      N£mero pi.
+         X        -->      Variable X.
+                 

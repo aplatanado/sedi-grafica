@@ -1,0 +1,355 @@
+	UNIVERSIDAD DE LA LAGUNA
+     CENTRO SUPERIOR DE INFORMATICA
+
+     
+     []-----------------------------------------------------------------[]
+     []           ESTRUCTURA Y TECNOLOGIA DE COMPUTADORES IV            []
+     []                                                                 []
+     []              Curso 1998/99 - 2ß Cuatrimestre                    []
+     []                                                                 []
+     [] C¢digo:       212 (Sistemas, obligatoria) y                     []
+     []               354 (Gesti¢n, optativa)                           []
+     [] CrÇditos:     6   (3 te¢ricos, 3 pr†cticos)                     []
+     []                                                                 []
+     [] Departamento: FISICA FUNDAMENTAL Y EXPERIMENTAL                 []
+     [] Profesor:     Juan Julian Merino Rubio                          []
+     []                                                                 []
+     []-----------------------------------------------------------------[]
+
+     Horario:   Lunes, Martes y MiÇrcoles de 9:30 a 10:30
+
+     Fechas de los ex†menes:     22/Junio/99     primer llamamiento
+				  6/Julio/99     segundo llamamiento
+				 16/Septiembre/99   septiembre
+
+     Horario de Tutor°a:        
+		ma§ana          Martes,    de 11:00 a 13:00
+				Jueves,    de 11:00 a 13:00
+		tarde           Lunes,     de 17:00 a 19:00
+				MiÇrcoles, de 17:00 a 19:00
+		
+		Lugar:  Laboratorio de Computadoras y Control
+			Planta 0
+			Edificio de F°sicas y Matem†ticas
+
+     []-----------------------------------------------------------------[]
+     
+     OBJETIVOS DE LA ASIGNATURA
+
+     Esta asignatura complementa a su precedente, ETC III, desarrollando
+     en profundidad a la unidad de entrada-salida, pero su objetivo
+     fundamental es el de concretar los conocimientos genÇricos ya
+     adquiridos, aplic†ndolos a sistemas reales. Por ello se estudian las
+     estructuras internas de microprocesadores actuales, como la familia
+     80x86 de Intel, incluyendo el coprocesador matem†tico 80x87, se 
+     comparan entre s° y con las estructuras de otros microprocesadores 
+     como los 680x0 de Motorola y otros.
+
+     Dentro de la unidad de entrada-salida se estudian los diversos 
+     controladores: el de interrupciones, el de DMA, los de pantalla, los 
+     de discos, el temporizador, etc., as° como los puertos de comunicaci¢n, 
+     tanto serie como paralelo. En todos los casos se estudian los circuitos
+     VLSI que implementan estas funciones, los est†ndares existentes y su 
+     utilizaci¢n pr†ctica. No se deja de lado la componente de ingenier°a 
+     que conlleva el estudio de estas unidades: buses est†ndares, tipos de 
+     conectores, dimensiones, requerimientos energÇticos, disipaci¢n del 
+     calor, seguridad, radiaciones perniciosas para la salud, etc.
+
+     []----------------------------------------------------------------[1]
+
+     []-----------------------------------------------------------------[]
+								 [ ETCIV ]
+
+     TEMARIO
+
+	1.-  Estructura de los Sistemas basados en los
+	     Microprocesadores Intel 80x86.
+	     1.1.-    El bus del Sistema. Los buses ISA, EISA, VESA local
+		      bus, PCI.
+	     1.2.-    Coprocesadores Matem†ticos 80x87.
+
+	2.-  La Unidad de Entrada / Salida.
+	     2.1.-    El sistema de interrupciones. El controlador de
+		      interrupciones Intel 8259.
+	     2.2.-    El temporizador Intel 8254. El reloj en tiempo real
+		      MC146818 de Motorola.
+	     2.3.-    El sistema de DMA. El controlador de DMA Intel 8237.
+	     2.4.-    El sistema de comunicaci¢n serie. El RS-232C, el 
+		      RS-422, el RS-449, y otros sistemas. La UART 
+		      NS 8250, la NS 16550, y otros componentes LSI.
+	     2.5.-    El sistema de comunicaci¢n paralela. El protocolo
+		      Centronics. El bus GPIB. El PPI Intel 8255A y otros
+		      componentes LSI.
+	     2.6.-    Los sistemas de almacenamiento masivo. Controladores
+		      de discos flexibles. Controladores de discos duros.
+		      Interfaces IDE, ESDI, SCSI. Controladores de CD-ROM. 
+		      Las unidades de cinta.
+	     2.7.-    El sistema de visualizaci¢n por pantalla.
+		      Controladores de CRT. Sistemas adaptadores de v°deo:
+		      MDA, CGA, EGA, VGA, Super VGA, est†ndar VESA, TIGA 
+		      y otros sistemas.
+	     2.8.-    El teclado, el rat¢n, lectores ¢pticos y otros 
+		      perifÇricos.
+
+	3.-  Introducci¢n a la estructura interna de Microprocesadores
+	     de 16 y 32 bits: 8086, 80286, 80386, 80486, Pentium, 
+	     Pentium Pro, 68000, 68010, 68020, 68030, 68040, PowerPC 601 
+	     y otros procesadores.
+
+     []-----------------------------------------------------------------[]
+
+     BIBLIOGRAFIA
+
+	-    Robert L. Hummel, ÆPC Magazine Programmer's Technical
+	     Reference: The Processor and CoprocessorØ, Ziff-Davis
+	     Press, 1992.
+	
+	-    Michael Tischer, ÆPC intern. System ProgrammingØ, Abacus-
+	     Data Becker, 1992.
+     
+	-    Intel Corporation, ÆMicroprocessors and Peripheral
+	     HandbookØ, vols I & II.
+	
+	-    Yu-Cheng Liu / Glenn A. Gibson, ÆArquitectura, Programaci¢n
+	     y Dise§o de Sistemas Basados en Microprocesadores
+	     (8086/80186/80286)Ø, Anaya Multimedia, S.A., 1990.
+	
+     []----------------------------------------------------------------[2]
+
+     []-----------------------------------------------------------------[]
+								 [ ETCIV ]
+     
+	-    Richard Startz, Æ8087 Applications and Programming for the
+	     IBM PC, XT and ATØ, Brady, Prentice-Hall Press, 1985.
+	
+	-    Murray Sargent III / Richard L. Shoemaker, ÆThe Personal
+	     Computer from the Inside Out. The Programmer's Guide to
+	     Low-Level PC Hardware and Software. Third EditionØ, 
+	     Addison-Wesley, Inc., 1995.
+
+	-    Richard F. Ferraro, ÆProgrammer's Guide to the EGA and
+	     VGA Cards. Second EditionØ, Addison-Wesley, Inc., 1990.
+
+	-    Harold S. Stone, ÆMicrocomputer InterfacingØ, Addison-
+	     Wesley, Inc., 1983.
+	
+	-    A.B. Fontain / F. Barrand, ÆLos Microprocesadores
+	     80286/80386Ø, Masson, S.A., 1989.
+	
+	-    Mohamed Rafiquzzaman, ÆMicroprocessors and Microcomputer-
+	     Based System DesignØ, CRC Press, 1990.
+	
+	-    Scott Mueller, ÆUpgrading and Repairing PCs. 4th EditionØ,
+	     Que Corporation, 1994.
+
+	-    Richard Wilton, ÆSistemas de VideoØ, Anaya Multimedia, 
+	     S.A., 1990.
+	
+	-    Willis J. Tompkins / John G. Webster (editors), ÆInterfacing
+	     Sensors to the IBM PCØ, Prentice-Hall, Inc., 1988.
+	
+	-    G. Apruzzese / C. Frauly, ÆIBM PC du Laboratoire a
+	     l'Industrie. PC XT, AT, RT, ES Interfaces, liasons,
+	     adaptationsØ, Dunod, 1986.
+
+	-    G. Jack Lipovski, Æ16- and 32-bit Microcomputer Interfacing:
+	     Programming Examples in C and M68000 Family Assembly 
+	     LanguageØ, Prentice-Hall International, Inc., 1990.
+
+	-    D. Del Corso / H. Kirrmann / J.D. Nicoud, ÆMicrocomputer 
+	     Buses and LinksØ, Academic Press, 1986.
+     
+	-    Frank van Gilluwe, ÆThe Undocumented PCØ, Addisson-Wesley 
+	     Publishing Company, 1994.
+
+	-    MindShare, Inc. / Don Anderson / Tom Shanley, ÆPentium
+	     Processor System ArchitectureØ - Second Edition, Addisson-
+	     Wesley Publishing Company, 1995.
+
+	-    Intel Corporation, ÆIntel Architecture Software Developer's
+	     Manual, Volume 1: Basic ArchitectureØ.
+	-    Intel Corporation, ÆIntel Architecture Software Developer's
+	     Manual, Volume 2: Instruction Set ReferenceØ.
+	-    Intel Corporation, ÆIntel Architecture Software Developer's
+	     Manual, Volume 3: System Programming GuideØ.
+	
+     []----------------------------------------------------------------[3]
+
+     []-----------------------------------------------------------------[]
+								 [ ETCIV ]
+     PRACTICAS
+
+	1.   Entrada / Salida de se§ales digitales mediante los puertos
+	     serie y paralelos. Control de un simulador de cruces con
+	     sem†foros.
+
+	2.   Programaci¢n en lenguaje Ensamblador del Coprocesador
+	     matem†tico 80x87 y del adaptador VGA.
+
+     []-----------------------------------------------------------------[]
+     []                            ETCIV                                []
+     []                                                                 []
+     []                         PRACTICA Nß 1                           []
+     []                                                                 []
+     []-----------------------------------------------------------------[]
+     []                                                                 []
+     []        Control de un simulador de cruces con sem†foros          []
+     []                                                                 []
+     []-----------------------------------------------------------------[]
+
+	Una aplicaci¢n cada vez m†s frecuente de los ordenadores es la de
+     regulaci¢n del tr†fico en las ciudades. Como acercamiento a este
+     complejo problema se dispone en el Laboratorio de una maqueta que
+     simula un cruce de calles controlado por sem†foros.
+
+			    €     ≥     €
+			    €    ≥    €
+			G3  €     ≥     €  P3
+		       V O  €           € V R
+		       N O  € ± ± ± ± ± € O O
+		       R O  € ± ± ± ± ± €
+			    €           €  O R F2
+	   P4       F3      €     ≥     €  O N      G2
+	    O R    V N R    €     ≥     €  O V  R N V
+	    O V    O O O    €     ≥     €       O O O
+       ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€           €‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹
+
+	   ﬂﬂﬂﬂﬂﬂ                                  ﬂﬂﬂﬂﬂﬂ  
+	    ﬂﬂﬂﬂﬂﬂ                                  ﬂﬂﬂﬂﬂﬂ
+      ƒƒƒƒƒ ﬂﬂﬂﬂﬂﬂ ƒƒƒƒƒ                    ƒƒƒƒƒƒƒ ﬂﬂﬂﬂﬂﬂ ƒƒƒƒ
+	    ﬂﬂﬂﬂﬂﬂ                                  ﬂﬂﬂﬂﬂﬂ
+	   ﬂﬂﬂﬂﬂﬂ                                  ﬂﬂﬂﬂﬂﬂ  
+       ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹           ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹
+			    €     ≥     €                O V
+	    O O O      V O  €     ≥     €  O O O         O R
+	    V N R   F4 N O  €     ≥     €  V N R          P2
+	   G4          R O  €     ≥     €      F1
+			    €           €  G1
+			    € ± ± ± ± ± € O R
+			R V € ± ± ± ± ± € O N
+			O O €           € O V
+		       P1   €    ≥    €
+			    €     ≥     €
+
+		  Esquema de la maqueta del cruce de calles
+
+     []----------------------------------------------------------------[4]
+
+     []-----------------------------------------------------------------[]
+								 [ ETCIV ]
+
+	El cruce est† controlado por 8 sem†foros para veh°culos, de tres
+     luces cada uno (roja, naranja y verde) y 4 para peatones, compuesto
+     por s¢lo dos luces (roja y verde), lo cual hace un total de 32 luces
+     que hay que controlar.
+	Las luces est†n implementadas mediante diodos luminicentes de
+     colores rojo, naranja y verde, control†ndose cada uno de ellos
+     mediante un pin en los conectores de entrada de la maqueta, seg£n 
+     se aplique HIGH (1), que hace que luzca, o LOW (0), que hace que 
+     permanezca apagado. Hay cuatro conectores de 8 pines, todos ellos
+     con la misma estructura:
+
+		  0   1   2   3   4   5   6   7
+		⁄ƒƒƒ¬ƒƒƒ¬ƒƒƒ¬ƒƒƒ¬ƒƒƒ¬ƒƒƒ¬ƒƒƒ¬ƒƒƒø
+		≥ V ≥ R ≥ V ≥ N ≥ R ≥ V ≥ N ≥ R ≥
+		¿ƒƒƒ¡ƒƒƒ¡ƒƒƒ¡ƒƒƒ¡ƒƒƒ¡ƒƒƒ¡ƒƒƒ¡ƒƒƒŸ
+		 ƒƒƒ¬ƒƒƒ ƒƒƒƒƒ¬ƒƒƒƒƒ ƒƒƒƒƒ¬ƒƒƒƒƒ
+		    P#        G#          F#
+
+	Se trata de escribir un programa que controle las luces a travÇs
+     de una tarjeta auxiliar dotada de un circuito PPI 8255 que proporciona
+     tres puertos paralelos de 8 bits. El problema de controlar 32 l°neas
+     con s¢lo 24 se§ales se resuelve aprovechando las simetr°as del cruce
+     (algunas luces deben cambiar simult†neamente).
+	Lo m°nimo exigido es que el cruce funcione correctamente, que haya
+     un ciclo a lo largo del cual todos los sem†foros den paso y se cierren
+     de forma l¢gica, sin provocar accidentes. Se valorar†n como
+     ampliaciones: esquema del cruce en pantalla funcionando al mismo
+     tiempo que el simulador, aviso sonoro para ciegos en los pasos de
+     peatones, control interactivo desde el teclado de los tiempos seg£n
+     la densidad del tr†fico, situaciones de emergencias para dar paso
+     preferente a bomberos y ambulancias, etc.
+	El lenguaje a utilizar se deja a la libre elecci¢n del alumno.
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     []----------------------------------------------------------------[5]
+
+     []-----------------------------------------------------------------[]
+								 [ ETCIV ]
+
+     []-----------------------------------------------------------------[]
+     []                            ETCIV                                []
+     []                                                                 []
+     []                         PRACTICA Nß 2                           []
+     []                                                                 []
+     []-----------------------------------------------------------------[]
+     []                                                                 []
+     []          Trazado de funciones en pantalla gr†fica               []
+     []                                                                 []
+     []-----------------------------------------------------------------[]
+
+     Fundamento:
+     ----------
+	Se debe escribir un programa en lenguaje Ensamblador del 80x86/x87
+     que trace en modo gr†fico de la VGA una funci¢n y = f(x) dada.
+
+			Y
+			≥
+		   1500 ¥ﬁ
+			≥ ﬂ‹
+			≥  ﬁ›
+		   1000 ¥   €                           ‹ﬂ‹‹
+			≥    ﬂ‹        ‹‹ﬂ‹           ‹ﬂ   ﬁ›
+			≥      ﬂ‹   ‹ﬂﬂ    ﬂ‹        ﬁ›     ﬂ‹ 
+		    500 ¥        ﬂﬂﬂ         ﬂ‹     ‹ﬂ       ﬁ›
+			≥                      ﬂﬂ‹‹ﬂ          ﬂ
+		      0 ≈ƒƒƒƒ¬ƒƒƒƒ¬ƒƒƒƒ¬ƒƒƒƒ¬ƒƒƒƒ¬ƒƒƒƒ¬ƒƒƒƒ¬ƒƒƒ X
+			0    2    4    6    8   10   12   14
+
+	El programa debe permitir seleccionar las escalas horizontal y 
+     vertical interactivamente, dibujar los ejes Ox-Oy debidamente situados
+     y con sus marcas de escala.
+	Si la funci¢n existe en la regi¢n seleccionada se deber† trazar la 
+     curva que representa a la funci¢n dada.
+
+	Se propone la funci¢n
+
+			y = (x^3)*exp(x)/(exp(x)-1)˝
+
+     representada para  -4.0 Û x Û +10.0, poniendo la escala vertical
+     -2.0 Û y Û +2.0, como funci¢n obligatoria para todos los alumnos.
+     Adem†s cada uno tendr† que representar al menos otra funci¢n que
+     se le proporcionar† individualmente a cada alumno. Todas las 
+     funciones se deben calcular programando directamente al coprocesador. 
+
+	El modo 12h (640x480, 16 colores) de la VGA es el propuesto como
+     est†ndar para todos, aunque se admiten variaciones. La escritura en 
+     pantalla se debe hacer programando directamente los registro de la 
+     VGA, sin hacer uso de las funciones del BIOS.
+
+	Sobre el m°nimo propuesto cualquier ampliaci¢n de las
+     especificaciones servir† para mejorar la calificaci¢n de la pr†ctica.
+
+     []----------------------------------------------------------------[6]
+
