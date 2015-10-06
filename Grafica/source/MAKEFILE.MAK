@@ -6,11 +6,10 @@ OBJDIR = .\obj
 BINDIR = ..\bin
 
 .asm.obj:
-  $(ASM) $<, $(OBJDIR)\$&.obj
+  $(ASM) $<, $(OBJDIR)
 
 grafica.exe: system.obj string.obj stack.obj graph.obj math.obj \
              calc.obj input.obj main.obj
 
-  @cd $(OBJDIR)
-  $(LINK) /x /3 $?, ..\$(BINDIR)\grafica.exe
+  $(LINK) /j$(OBJDIR) /x /3 $?, $(BINDIR)\grafica.exe
 
