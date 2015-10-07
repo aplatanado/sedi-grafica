@@ -1,7 +1,4 @@
 #!/bin/sh
-
-SCRIPT_PATH=$(dirname $(realpath -s $0))
-
-"$SCRIPT_PATH"/em-dosbox/src/packager.py index "$SCRIPT_PATH"/Grafica/bin/GRAFICA.EXE &&
-  mv index.html "$SCRIPT_PATH"/www &&
-  git subtree push --prefix www origin gh-pages
+../em-dosbox/src/packager.py index ../Grafica/bin/GRAFICA.EXE &&
+  mv index.html www &&
+  ( cd .. && git subtree push --prefix site/www origin gh-pages )
