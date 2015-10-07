@@ -1,3 +1,4 @@
-[submodule "em-dosbox"]
-	path = em-dosbox
+[submodule "site/em-dosbox"]
+	path = site/em-dosbox
 	url = git@github.com:dreamlayers/em-dosbox.git
+	branch = em-dosbox-svn-sdl2
